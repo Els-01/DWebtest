@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	background-image: url(../img/bg.png);
+}
+img {
+	width: 100%;
+	height: auto;
+}
+/*FONTS BEGINN*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*FONTS ENDE*/
+
+
+.container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255,255,255,1.00);
+	margin-top: 10px;
+}
+.row {
+	height: 50px;
+}
+.rowbg {
+	background-color: rgba(180,68,25,1.00);
+}
+
+/*BEGINN HEADER*/
+.logo {
+	width: 20%;
+	float: left;	
+}
+
+/*ENDE HEADER*/
+
+/*BEGINN NAVI*/
+ul {
+	margin: 0;
+	margin-right: 25px;
+	padding: 0;
+	list-style-type: none;
+	float: right;
+}
+li {
+	float: left;
+}
+li a {
+/*	padding: 10px;
+*/	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+	text-transform: uppercase;
+	font-size: 12px;
+	/*display: block;*/
+/*	background-color: rgba(196,196,196,1.00);
+*/	margin: 5px;
+	margin-top: 23px;
+	/*width: 35px;*/
+	text-align: center;
+	float: left;
+}
+li a:hover {
+	color: rgba(138,0,2,1.00);
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.social {
+	float: right;
+}
+
+.social img {
+	width: 30px;
+	margin-top: 12px;
+	margin-bottom: 10px;
+	margin-right: 7px;
+	margin-left: 0px;
+}
+/*ENDE NAVI*/
+
+
+.clear {
+	clear: both;
+}
+
+.box1 {
+	width: 20%;
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.box1 img {
+	width: 50%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+.textbox {
+	width: 60%;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+.bildbox {
+	
+	width: 40%;
+	float: left;	
+}
+.textbox h2 {
+	font-family: 'Alex Brush', cursive;
+	font-size: 70px;
+	color: rgba(183,25,35,1.00);
+}
+
+
+.textright {
+	text-align: right;
+}
+
+.bildbox img {
+	border-radius: 50%;
+}
+
+
+.hello {
+	text-align: center;
+}
+.hello h1 {
+	margin: 30px;
+	font-family: 'Alex Brush', cursive;
+	font-size: 50px;
+}
+.blocksatz {
+	text-align: justify;
+	columns: 2;
+	padding-left: 60px;
+	padding-right: 60px;
+	hyphens: auto;
+}
+.willkommen {
+	margin: 10px;
+}
+
+
+.hr {
+	margin: 40px;
+}
+
+
+#name, #betreff, #email, #nachricht, #bt {
+	width: 300px;
+	height: 30px;
+	border-radius: 3px;
+	border: thin solid rgba(131,131,131,1.00);
+	float: left;
+	padding-left: 5px;
+}
+#nachricht {
+	height: 120px;
+}
+.formtext {
+	width: 300px;
+	height: 25px;
+	float: left;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.form {
+	
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgba(162,162,162,1.00);
+	float: right;
+	
+}
+.check {
+	margin: 10px;
+	float: left;	
+}
+.agb {
+	font-size: 14px;
+	float:left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: justify;
+	hyphens: auto;
+	width: 300px;
+	
+}
+.adresse {
+	width: 60%;
+	float: left;
+}
+.formular {
+	float: left;
+	width: 40%;
+}
+.galerievorschau {
+	margin: 10px;
+	width: 130px;
+	float: left;
+}
+.bilder {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: blueviolet;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.footer {
+	width: 100%;
+	background-color: #fbfbfb;
+	height: 10px;
+}
